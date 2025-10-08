@@ -1,0 +1,35 @@
+
+:root {
+    --primary-color: #e18821;
+    --text-color: #363636;
+    --background-light: #fafafa;
+    --text-muted: #4f5663;
+    --primary-gradient: linear-gradient(135deg, #f5962a 0%, #e09224 100%);
+    --gradient-light: linear-gradient(135deg, #f5962a 0%, #f5962a 100%);
+    --gradient-hover: linear-gradient(135deg, #f5962a 0%, #f5962a 100%);
+}
+.case-study-section{
+    background-color: #1a1e2b;
+}
+
+.cases-bg-cards {
+  background-color: #272d39 !important;
+}
+.cases-bg-cards h3{
+color: var(--primary-color) !important
+;
+}
+
+.text-warning {
+  color: #fbbf24 !important;
+}
+.test-text{
+    font-size: 1.3rem;
+}
+
+hr{
+    color: var(--text-muted);
+}
+.case-study-section {
+    background-color: #1a1e2b !important;
+}

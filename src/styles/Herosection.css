@@ -1,0 +1,48 @@
+
+:root {
+    --primary-color: #e18821;
+    --text-color: #363636;
+    --background-light: #fafafa;
+    --text-muted: #4f5663;
+    --primary-gradient: linear-gradient(135deg, #f5962a 0%, #e09224 100%);
+    --gradient-light: linear-gradient(135deg, #f5962a 0%, #f5962a 100%);
+    --gradient-hover: linear-gradient(135deg, #f5962a 0%, #f5962a 100%);
+}
+
+.maincolor{
+    background-color: #e18821;
+}
+.hero-section{
+    background-image: url('../assets/orangebg.webp') ;
+
+    padding: 2.5rem 0;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: contain;
+}
+.hero-section h1 span, #typewriter{
+    color: #e18821 !important;
+}
+.hero-section .btn-primary {
+    background: var(--primary-gradient);
+    border: 0;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: white;
+    transition: all 0.3s;
+    line-height: 1.35;
+}
+
+@media only screen and (max-width: 768px) {
+  .hero-section {
+    background-image: none;
+    
+  }
+}
+@media (max-width: 768px) {
+    .hero-section .btn-primary {
+        width: 100%;
+    }
+}
