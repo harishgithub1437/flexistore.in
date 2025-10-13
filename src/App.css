@@ -1,7 +1,7 @@
-body{
-      background-color: #fafafa !important;
+body {
+    background-color: #fafafa !important;
 
-       margin: 0 !important;
+    margin: 0 !important;
     font-family: var(--bs-body-font-family) !important;
     font-size: var(--bs-body-font-size) !important;
     font-weight: var(--bs-body-font-weight) !important;
@@ -16,7 +16,8 @@ body{
 
 
 
-:root, [data-bs-theme=light] {
+:root,
+[data-bs-theme=light] {
     --bs-blue: #0d6efd;
     --bs-indigo: #6610f2;
     --bs-purple: #6f42c1;
@@ -140,8 +141,48 @@ body{
 .navigation-desk a:hover {
     color: var(--primary-color);
 }
+
 .navigation-desk a {
     color: var(--text-color);
     position: relative;
     transition: color 0.3s;
 }
+
+
+@media (min-width: 768px) {
+    .container{
+       width: 100% !important;
+        margin: 0 auto !important;
+        padding: 0 20px !important;
+                padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .container {
+        max-width: 1400px !important;
+    }
+}
+
+@media (min-width: 1370px) {
+    .container {
+        max-width: 1280px !important;
+    }
+}
+
+/* .container {
+    max-width: 92% !important;
+    margin: 0 auto !important;
+    padding: 0 20px !important;
+} */
+
+
+@media (min-width: 1400px) and (max-width: 1599px) {
+  .container {
+    max-width: 92% !important;
+    margin: 0 auto !important;
+    padding: 0 20px !important;
+  }
+}
+

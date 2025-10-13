@@ -1,0 +1,4 @@
+.team-card:hover {
+  transform: translateY(-5px) !important;
+  transition: all 0.3s ease !important;
+}

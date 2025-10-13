@@ -7,7 +7,7 @@ function Footer() {
     <div>
         	<footer class="easydata-footer">
 		<div class="container">
-			<div class="footer-columns">
+			<div class="footer-columns special-block-d">
 				{/* <!-- Product Column --> */}
 				<div class="footer-column">
 					<div class="footer-brand">
@@ -44,7 +44,7 @@ function Footer() {
 				</div> --> */}
 
 				{/* <!-- Contact Column --> */}
-				<div class="footer-column">
+				<div class="footer-column ">
 					<h3>Contact</h3>
 					<ul class="contact-info">
 						<li>

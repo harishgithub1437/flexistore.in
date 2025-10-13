@@ -1,0 +1,39 @@
+.trusted-by-section {
+  background-color: #f8f9fa;
+}
+
+.logo-placeholder {
+  width: 130px;
+  height: 70px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.testimonial-card {
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1);
+}
+
+.avatar-circle {
+  width: 45px;
+  height: 45px;
+  background-color: #f39c12;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-warning {
+  color: #f39c12 !important;
+}
+
+.rating-icons{
+    color: #f39c12;
+}

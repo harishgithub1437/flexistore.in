@@ -99,3 +99,10 @@
     color: #000;
     font-size: 0.9rem;
 }
+
+@media (max-width:768px) {
+    .special-block-d{
+        display: block !important;
+    }
+    
+}

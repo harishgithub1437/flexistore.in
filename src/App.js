@@ -1,15 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
 import Home from './pages/Home';
+import AboutUs from './pages/AboutUs';
 
 function App() {
   return (
-    <Home/>
+    <Router basename="/flexistore.in">
+      <Navbar />
+      <div style={{minHeight: '100vh'}}>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/about" element={<AboutUs />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

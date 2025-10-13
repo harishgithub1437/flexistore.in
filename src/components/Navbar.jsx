@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import logo from "../assets/Logo.png";
 import "../styles/Navbar.css";
 import ContactModel from "./ContactModel";
@@ -11,9 +12,9 @@ function Navbar() {
           <div className="d-flex justify-content-center justify-content-md-between align-items-center position-relative">
             
             <div>
-              <a className="navbar-brand" href="#">
+              <Link className="navbar-brand" to="/">
                 <img src={logo} alt="logo" className="img-fluid" width="180px" />
-              </a>
+              </Link>
             </div>
 
             <div className="d-none d-md-block position-absolute top-50 start-50 translate-middle align-items-center">
@@ -21,11 +22,12 @@ function Navbar() {
                 <a href="#advantage" className="text-decoration-none mx-3">Why Flexi Store</a>
                 <a href="#features" className="text-decoration-none mx-3">Features</a>
                 <a href="#case" className="text-decoration-none mx-3">Case Study</a>
+                <Link to="/Home" className="text-decoration-none mx-3">Home</Link>
+                <Link to="/about" className="text-decoration-none mx-3">About Us</Link>
               </nav>
             </div>
 
             <div className="d-none d-md-block">
-              {/* ✅ Button automatically triggers modal */}
               <button
                 className="btn btn-primary"
                 data-bs-toggle="modal"
@@ -38,7 +40,6 @@ function Navbar() {
         </div>
       </header>
 
-      {/* ✅ Make sure the modal exists in DOM */}
       <ContactModel />
     </>
   );

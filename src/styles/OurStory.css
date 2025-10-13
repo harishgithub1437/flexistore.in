@@ -1,0 +1,24 @@
+.our-story-section {
+  background-color: #fff;
+}
+
+.our-story-section h5 {
+  font-size: 1.1rem;
+}
+
+.our-story-section p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.bi-record-circle {
+  font-size: 0.9rem;
+}
+
+.text-warning {
+  color: #f39c12 !important;
+}
+
+.text-success {
+  color: #1ca64c !important;
+}

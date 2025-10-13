@@ -1,25 +1,50 @@
 .fs-card {
-    border-radius: 14px;
-    background-color: #e187211c;
-    box-shadow: none;
-    padding: 14px;
+  border-radius: 14px;
+  background-color: #e187211c;
+  box-shadow: none;
+  padding: 14px;
+  height: 100%;
 }
+
 .icon-box-model {
-    background-color: var(--primary-color);
-    color: #fff;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    display: flex
-;
-    align-items: center;
-    justify-content: center;
-    font-size: 20px;
+  background-color: var(--primary-color);
+  color: #fff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
 }
-
-
 
 .business-model-section {
-    padding-top: 80px;
-    background-color: #fafafa;
+  padding-top: 80px;
+  background-color: #fafafa;
+}
+
+/* Mobile slider styles - EXACTLY like your example */
+@media (max-width: 767.98px) {
+  .row.flex-nowrap.overflow-auto {
+    flex-wrap: nowrap;
+    height: 228px;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .row.flex-nowrap.overflow-auto .col-9 {
+    width: 75%;
+    flex: 0 0 75%;
+    scroll-snap-align: start;
+  }
+}
+
+/* Hide scrollbar */
+.row.flex-nowrap.overflow-auto::-webkit-scrollbar {
+  display: none;
+}
+
+.row.flex-nowrap.overflow-auto {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }

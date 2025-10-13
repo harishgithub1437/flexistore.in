@@ -6,7 +6,7 @@ function Banner() {
     <div>
             <section class="CTA-section">
 		<div class="container">
-			<div class="row bg-black text-white rounded-4 pt-5 justify-content-center text-center mx-1 mx-md-0">
+			<div class="row bg-black text-white rounded-4  py-5 justify-content-center text-center mx-1 mx-md-0">
 				<div class="col-lg-10 section-title">
 					<h2 class="text-white">Build Your Own E-Commerce Platform</h2>
 					<p class="text-light mb-5 subtitle">Web, app, or both — custom-built to match how your business
