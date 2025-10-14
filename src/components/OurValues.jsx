@@ -75,7 +75,7 @@ export default function OurValues() {
   ];
 
   return (
-    <section className="py-5 text-center" style={{ backgroundColor: "#fafafa" }}>
+    <section className="py-5 mt-3 text-center" style={{ backgroundColor: "#fafafa" }}>
       <h2 className="fw-bold mb-2">
         Our <span style={{ color: "#ff9a00" }}>Values</span>
       </h2>

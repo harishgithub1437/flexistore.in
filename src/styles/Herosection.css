@@ -49,3 +49,7 @@
         width: 100%;
     }
 }
+.hero-section h1 {
+    color: var(--text-color) !important;
+    font-size: 3rem !important;
+}

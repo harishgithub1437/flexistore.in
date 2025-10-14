@@ -29,7 +29,7 @@ function Navbar() {
 
             <div className="d-none d-md-block">
               <button
-                className="btn btn-primary"
+                className="btn btn-primary btn-hover"
                 data-bs-toggle="modal"
                 data-bs-target="#demoFormModal"
               >

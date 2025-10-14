@@ -2,7 +2,8 @@ body {
     background-color: #fafafa !important;
 
     margin: 0 !important;
-    font-family: var(--bs-body-font-family) !important;
+    font-family: 'Inter', sans-serif !important;
+
     font-size: var(--bs-body-font-size) !important;
     font-weight: var(--bs-body-font-weight) !important;
     line-height: var(--bs-body-line-height) !important;
@@ -12,9 +13,6 @@ body {
     -webkit-text-size-adjust: 100% !important;
     -webkit-tap-highlight-color: transparent !important;
 }
-
-
-
 
 :root,
 [data-bs-theme=light] {
@@ -137,6 +135,22 @@ body {
     --bs-breakpoint-xl: 1200px;
     --bs-breakpoint-xxl: 1400px;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+/* .sticky-header .btn-primary:hover {
+    background: var(--gradient-hover);
+} */
+.btn-hover:hover{
+     background: var(--gradient-hover) !important;
+}
+.btn-outline-custom:hover {
+    background-color: var(--primary-color) !important;
+    color: #fff !important;
+}
+
 
 .navigation-desk a:hover {
     color: var(--primary-color);

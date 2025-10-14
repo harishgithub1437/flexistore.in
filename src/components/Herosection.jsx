@@ -37,7 +37,7 @@ function Herosection() {
 
             <div className="d-flex flex-wrap gap-3">
               <button
-                className="btn btn-primary px-4"
+                className="btn btn-primary px-4 btn-hover"
                 data-bs-toggle="modal"
                 data-bs-target="#demoFormModal"
               >

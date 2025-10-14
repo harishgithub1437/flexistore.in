@@ -46,7 +46,7 @@ function AboutUs() {
              <OurStory />
               <OurJourney />
                 <OurValues />
-            <section className="py-5 bg-white text-center">
+            <section className="py-5 my-3 bg-white text-center">
                 <div className="container">
                     <h2 className="fw-bold mb-2">
                         Meet Our <span style={{ color: "#f7931e" }}>Team</span>

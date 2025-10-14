@@ -9,10 +9,10 @@ function Homebody() {
         <div className="container">
           <div className="row">
             <div className="col-md-6 mb-4">
-              <div className="section-title text-start  mb-md-3 mb-xxl-5">
+              <div className="section-title text-start  special-m mb-xxl-5">
                 <h3 className="fw-bold my-4">One Platform for <span className="gradiant-texts"> All Business
                     Models</span></h3>
-                <p className="text-muted fs-6">
+                <p className="text-muted fs-6 ">
                   FlexiStore is a comprehensive e-commerce solution that seamlessly integrates B2B, B2C, and
                   B2B2C business models on a single platform.
                 </p>

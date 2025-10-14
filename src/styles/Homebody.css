@@ -37,7 +37,14 @@
     flex: 0 0 75%;
     scroll-snap-align: start;
   }
+   .special-m{
+    margin-bottom: 2rem !important;
+  }
+ 
 }
+ .special-m{
+    margin-bottom: 3.5rem;
+  }
 
 /* Hide scrollbar */
 .row.flex-nowrap.overflow-auto::-webkit-scrollbar {

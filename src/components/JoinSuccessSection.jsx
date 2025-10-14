@@ -11,11 +11,11 @@ export default function JoinSuccessSection() {
         </h2>
         <p className="text-muted mb-4 fs-5">
           Let's discuss how FlexiStore can transform your e-commerce business.
-          Book a free strategy call with our team today.
+          Book a <br />free strategy call with our team today.
         </p>
 
         <button
-          className="btn fw-semibold px-4 py-3 mt-2"
+          className="btn fw-bold px-4 py-3 mt-2"
           style={{
             background: "linear-gradient(135deg, #ff9a00, #ff6a00)",
             color: "#fff",

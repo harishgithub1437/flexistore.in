@@ -4,7 +4,7 @@ import "../styles/WhoWeAre.css"
 
 const WhoWeAre = () => {
   return (
-    <section className="who-we-are-section py-5">
+    <section className="who-we-are-section py-5 extra-p">
       <div className="container">
         <div className="row align-items-center">
           {/* Left Side */}
