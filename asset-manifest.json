@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/flexistore.in/static/css/main.117686d9.css",
-    "main.js": "/flexistore.in/static/js/main.febbe1e6.js",
+    "main.js": "/flexistore.in/static/js/main.27bf3cb1.js",
     "static/js/453.907bbed9.chunk.js": "/flexistore.in/static/js/453.907bbed9.chunk.js",
     "static/media/Herosecimg.png": "/flexistore.in/static/media/Herosecimg.a2c5ba08da400b236f9c.png",
     "static/media/Webimageflexistore.png": "/flexistore.in/static/media/Webimageflexistore.ff4e0b50a9930706a901.png",
@@ -14,6 +14,7 @@
     "static/media/coupon.webp": "/flexistore.in/static/media/coupon.c56798f1e9c684bb9443.webp",
     "static/media/b2b.png": "/flexistore.in/static/media/b2b.68113fcf0d165e6a3460.png",
     "static/media/mobileapp.png": "/flexistore.in/static/media/mobileapp.3c2ce6e9e3d97493b17f.png",
+    "static/media/tempcontactimage.webp": "/flexistore.in/static/media/tempcontactimage.e7d1a0c09a3ab85b486e.webp",
     "static/media/admintools.webp": "/flexistore.in/static/media/admintools.cede2c85ed2f21d4a027.webp",
     "static/media/creditfacility.png": "/flexistore.in/static/media/creditfacility.7f2f0028388456b41da6.png",
     "static/media/shoppingexperiance.webp": "/flexistore.in/static/media/shoppingexperiance.70fafa92782402ceec1d.webp",
@@ -21,11 +22,11 @@
     "static/media/orangebg.webp": "/flexistore.in/static/media/orangebg.2b988fe5bd06bdef7608.webp",
     "index.html": "/flexistore.in/index.html",
     "main.117686d9.css.map": "/flexistore.in/static/css/main.117686d9.css.map",
-    "main.febbe1e6.js.map": "/flexistore.in/static/js/main.febbe1e6.js.map",
+    "main.27bf3cb1.js.map": "/flexistore.in/static/js/main.27bf3cb1.js.map",
     "453.907bbed9.chunk.js.map": "/flexistore.in/static/js/453.907bbed9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.117686d9.css",
-    "static/js/main.febbe1e6.js"
+    "static/js/main.27bf3cb1.js"
   ]
 }
