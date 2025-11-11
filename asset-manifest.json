@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/flexistore.in/static/css/main.e01539a5.css",
-    "main.js": "/flexistore.in/static/js/main.11491cfb.js",
+    "main.js": "/flexistore.in/static/js/main.cf0a8d09.js",
     "static/js/453.907bbed9.chunk.js": "/flexistore.in/static/js/453.907bbed9.chunk.js",
     "static/media/Herosecimg.png": "/flexistore.in/static/media/Herosecimg.a2c5ba08da400b236f9c.png",
     "static/media/Webimageflexistore.png": "/flexistore.in/static/media/Webimageflexistore.ff4e0b50a9930706a901.png",
@@ -22,11 +22,11 @@
     "static/media/orangebg.webp": "/flexistore.in/static/media/orangebg.2b988fe5bd06bdef7608.webp",
     "index.html": "/flexistore.in/index.html",
     "main.e01539a5.css.map": "/flexistore.in/static/css/main.e01539a5.css.map",
-    "main.11491cfb.js.map": "/flexistore.in/static/js/main.11491cfb.js.map",
+    "main.cf0a8d09.js.map": "/flexistore.in/static/js/main.cf0a8d09.js.map",
     "453.907bbed9.chunk.js.map": "/flexistore.in/static/js/453.907bbed9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e01539a5.css",
-    "static/js/main.11491cfb.js"
+    "static/js/main.cf0a8d09.js"
   ]
 }
